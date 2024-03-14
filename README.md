@@ -41,7 +41,7 @@ CUDA_VISIBLE_DEVICES=0 python pretrain-gnn-arxiv.py --dataset='ogb-arxiv' --lr=0
 --wd=0.0005 --epochs=1000 --model='SAGE' --num_layers=2 --seed=0
 ```
 
-### Step-2: Evaluate the pretrained models
+### Step-2: Evaluating the well-trained online GNNs with our LEBED score
 
 ```
 CUDA_VISIBLE_DEVICES=1 python evaluator_lebed_arxiv.py  --dataset='ogb-arxiv' \
