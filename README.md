@@ -3,13 +3,15 @@
 This is the Pytorch implementation for ICLR-24:"Online GNN Evaluation Under Test-Time Graph Distribution Shifts"
 We are trying to solve the online GNN evaluation problem when serving on unseen graphs (without labels and the training
 graph) as:
+![intro3](https://github.com/Amanda-Zheng/LEBED/assets/61812981/422fb531-8bc1-4262-af00-b6fe2f6c4074)
 
 The framework is:
+![image](https://github.com/Amanda-Zheng/LEBED/assets/61812981/f2d8c6b2-f384-4422-9e1f-9a412ae3822a)
 
 Welcome to kindly cite our work and discuss with xin.zheng@monash.edu:
 
 ```
-@article{zheng2023gnnevaluator,
+@article{zheng2024online,
   title={Online GNN Evaluation Under Test-Time Graph Distribution Shifts},
   author={Zheng, Xin and Song, Dongjin and Wen, Qingson and Du, Bo and Pan, Shirui},
   journal={International Conference on Learning Representations (ICLR)},
