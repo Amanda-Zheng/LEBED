@@ -1,14 +1,11 @@
-# Online GNN Evaluation Under Test-Time Graph Distribution Shifts
+# (ICLR'24) Online GNN Evaluation Under Test-Time Graph Distribution Shifts
 
-This is the Pytorch implementation for ICLR-24:"Online GNN Evaluation Under Test-Time Graph Distribution Shifts"
-We are trying to solve the online GNN evaluation problem when serving on unseen graphs (without labels and the training
-graph) as:
-![intro3](https://github.com/Amanda-Zheng/LEBED/assets/61812981/422fb531-8bc1-4262-af00-b6fe2f6c4074)
+This is the Pytorch implementation of our ICLR 2024 LEBED paper: "Online GNN Evaluation Under Test-Time Graph Distribution Shifts". [\[arXiv\]]()
 
-The framework is:
-![image](https://github.com/Amanda-Zheng/LEBED/assets/61812981/f2d8c6b2-f384-4422-9e1f-9a412ae3822a)
 
-Welcome to kindly cite our work and discuss with xin.zheng@monash.edu:
+## Citing LEBED
+> 🌟 If you find this resource helpful, please consider to star this repository and cite our research, and discuss with xin.zheng@monash.edu
+
 
 ```
 @article{zheng2024online,
@@ -19,6 +16,20 @@ Welcome to kindly cite our work and discuss with xin.zheng@monash.edu:
 }
 ```
 
+## Overview
+We are trying to solve the online GNN evaluation problem when serving on unseen graphs (without labels and the training
+graph) as:
+![intro3](https://github.com/Amanda-Zheng/LEBED/assets/61812981/422fb531-8bc1-4262-af00-b6fe2f6c4074)
+
+The framework is:
+![image](https://github.com/Amanda-Zheng/LEBED/assets/61812981/f2d8c6b2-f384-4422-9e1f-9a412ae3822a)
+
+
+
+
+
+## Instructions
+
 ### Requirements
 
 ```
@@ -28,8 +39,6 @@ scikit-learn==1.2.2
 torch-scatter==2.1.0+pt113cu117
 torch-sparse==0.6.16+pt113cu117
 ```
-
-## Instructions
 
 We run experiments on ACM, DBLP, and Citation, for domain shifts in the folder of 'LEBED-acm-dblp-citation', and Cora
 and Amazon for feature shifts in 'LEBED-cora-amz', as well as temporal shifts on OGB-arxiv in 'LEBED-tempo-arxiv'.
