@@ -1,6 +1,6 @@
-# (ICLR'24) Online GNN Evaluation Under Test-Time Graph Distribution Shifts
+# (ICLR'24 Spotlight) Online GNN Evaluation Under Test-Time Graph Distribution Shifts
 
-This is the Pytorch implementation of our ICLR 2024 LEBED paper: "Online GNN Evaluation Under Test-Time Graph Distribution Shifts". [\[arXiv\]](https://arxiv.org/abs/2403.09953)
+This is the Pytorch implementation of our ICLR 2024 Spotlight Paper (Top 5%), LEBED: "Online GNN Evaluation Under Test-Time Graph Distribution Shifts". [\[arXiv\]](https://arxiv.org/abs/2403.09953)
 
 
 ## Citing LEBED
